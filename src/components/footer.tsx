@@ -108,7 +108,42 @@ const Footer = () => {
             </div>
 
 
-            
+            {/* Bottom------------------------------------- */}
+            <div className="border-t border-gray-500">
+
+                <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center gap-3">
+
+                    <p className="text-xs text-gray-400 ">
+                        © 2026 Dev Stack. All rights reserved.
+                    </p>
+
+                    <div className="flex gap-6">
+
+                        <a
+                            href="https://www.youtube.com/watch?v=eULy-tljA4o"
+                            className="text-xs text-gray-400 hover:text-gray-900 transition"
+                        >
+                            Privacy
+                        </a>
+
+                        <a
+                            href="https://www.youtube.com/watch?v=eULy-tljA4o"
+                            className="text-xs text-gray-400 hover:text-gray-900 transition"
+                        >
+                            Terms
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+    );
+};
+
+export default Footer;
 
 
 
