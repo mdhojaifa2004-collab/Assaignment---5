@@ -179,7 +179,65 @@ const Cards = ({ cardsPromise }: CardsProps) => {
 
                             </div>
 
- 
+                            {/* Empty State----------------------------- */}
+
+                            {stack.length === 0 ? (
+                                <div className="text-center py-10">
+                                    <p className="text-gray-400">
+                                        Your stock is Empty
+                                    </p>
+
+                                    <p className="text-sm text-gray-400 mt-2">
+                                        Add technologies to build your stack.
+                                    </p>
+                                </div>
+                            ) : (
+
+                                // --------------------------------------------
+                                /* Selected Technologies */
+                                <div className="space-y-3">
+
+                                    {stack.map((item) => (
+                                        <div
+                                            key={item.id}
+                                            className="flex items-center gap-3 rounded-xl bg-gray-50 p-3"
+                                        >
+
+                                            <img
+                                                src={item.logo}
+                                                alt={item.name}
+                                                className="w-9 h-9 object-contain"
+                                            />
+
+                                            <div className="flex-1 min-w-0">
+                                                <h4 className="font-semibold text-sm truncate">
+                                                    {item.name}
+                                                </h4>
+
+                                                <p className="text-xs text-gray-500">
+                                                    {item.category}
+                                                </p>
+                                            </div>
+
+                                            <button
+                                                onClick={() => handleRemove(item.id)}
+                                                className="text-gray-400 hover:text-red-500 text-lg"
+                                            >
+                                                ✕
+                                            </button>
+
+                                        </div>
+                                    ))}
+
+                                </div>
+                            )}
+
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        </div>
     );
 };
 export default Cards;
