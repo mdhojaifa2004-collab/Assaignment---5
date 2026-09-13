@@ -113,3 +113,29 @@ const Cards = ({ cardsPromise }: CardsProps) => {
                                         <p className="text-sm text-gray-500 mt-2 min-h-[60px]">
                                             {card.description}
                                         </p>
+
+                                        {/* Category----------------------------------- */}
+                                        <div className="mt-4">
+                                            <span className=" inline-block rounded-full bg-orange-100 text-orange-600 px-3 py-1 text-xs font-medium">
+                                                {card.category}
+                                            </span>
+                                        </div>
+
+                                        {/* Difficulty + Rating------------------------- */}
+                                        <div className="flex items-center justify-between mt-5">
+
+                                            <span className="text-sm text-gray-600">
+                                                {card.level}
+                                            </span>
+
+                                            <span className="text-sm font-semibold">
+                                                ⭐ {card.rating}
+                                            </span>
+
+                                        </div>
+
+                                        {/* Button--------------------------------------- */}
+ 
+    );
+};
+export default Cards;
