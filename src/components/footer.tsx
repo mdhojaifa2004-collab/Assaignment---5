@@ -44,6 +44,29 @@ const Footer = () => {
                 </div>
 
 
+                {/* Product-------------------------------------- */}
+                <div className="flex-1">
+
+                    <h2 className="text-sm font-bold text-gray-800 mb-5">
+                        PRODUCT
+                    </h2>
+
+                    <h5 className="text-sm text-gray-500 mb-3 hover:text-gray-900 cursor-pointer transition">
+                        Home
+                    </h5>
+
+                    <h5 className="text-sm text-gray-500 mb-3 hover:text-gray-900 cursor-pointer transition">
+                        Technologies
+                    </h5>
+
+                    <h5 className="text-sm text-gray-500 hover:text-gray-900 cursor-pointer transition">
+                        Projects
+                    </h5>
+
+                </div>
+
+
+                {/* Company------------------------------- */}
 
 
 
