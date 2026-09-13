@@ -135,6 +135,50 @@ const Cards = ({ cardsPromise }: CardsProps) => {
                                         </div>
 
                                         {/* Button--------------------------------------- */}
+                                        <button
+                                            onClick={() => handleAddToStack(card)}
+                                            disabled={isAdded}
+                                            className={`w-full mt-5 rounded-xl py-2.5 font-semibold transition ${isAdded
+                                                ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+                                                : "bg-gray-900 text-white hover:bg-gray-700"
+                                                }`}
+                                        >
+                                            {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+                                        </button>
+
+                                    </div>
+                                );
+                            })}
+
+                        </div>
+                    </div>
+
+                    {/* Your Stack---------------------------------- */}
+                    <aside className="lg:col-span-1 lg:col-start-4">
+                        <div className="sticky top-24 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+
+                            {/* Stack Header-------------------------- */}
+                            <div className="mb-5">
+
+                                <h2 className="text-xl font-bold">
+                                    Your Stack
+                                </h2>
+
+                                <p className="text-sm text-gray-500 mt-1">
+                                    {stack.length} Technology Selected
+                                </p>
+
+                                {stack.length > 0 && (
+                                    <button
+                                        onClick={handleRemoveAll}
+                                        className="w-full mt-4 bg-pink-300 hover:bg-red-600                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     00 text-white font-semibold py-2.5 rounded-xl transition duration-200"
+                                    >
+                                        Remove All
+                                    </button>
+                                )}
+
+                            </div>
+
  
     );
 };
