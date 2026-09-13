@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "logo": "https://cdn.simpleicons.org/react",
+    "category": "Frontend",
+    "description": "A popular JavaScript library for building modern and interactive user interfaces.",
+    "tag": "Popular",
+    "rating": 4.9,
+    "level": "Beginner-Friendly",
+    "popularity": "Very High"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "logo": "https://cdn.simpleicons.org/vuedotjs",
+    "category": "Frontend",
+    "description": "A progressive JavaScript framework for building user interfaces and single-page applications.",
+    "tag": "Versatile",
+    "rating": 4.8,
+    "level": "Beginner-Friendly",
+    "popularity": "High"
+  },
+  {
+    "id": 3,
+    "name": "Svelte",
+    "logo": "https://cdn.simpleicons.org/svelte",
+    "category": "Frontend",
+    "description": "A modern frontend framework that compiles components into highly optimized JavaScript.",
+    "tag": "Fast",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "popularity": "Growing"
+  },
+  {
+    "id": 4,
+    "name": "Next.js",
+    "logo": "https://cdn.simpleicons.org/nextdotjs",
+    "category": "Frontend",
+    "description": "A React framework for building fast full-stack web applications with powerful rendering features.",
+    "tag": "Popular",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "popularity": "Very High"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "logo": "https://cdn.simpleicons.org/nodedotjs",
+    "category": "Backend",
+    "description": "A JavaScript runtime used to build scalable and high-performance backend applications.",
+    "tag": "Standard",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "popularity": "Very High"
+  },
+  {
+    "id": 6,
+    "name": "PostgreSQL",
+    "logo": "https://cdn.simpleicons.org/postgresql",
+    "category": "Database",
+    "description": "A powerful open-source relational database system known for reliability and advanced features.",
+    "tag": "Top SQL",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "popularity": "Very High"
+  },
+  {
+    "id": 7,
+    "name": "Redis",
+    "logo": "https://cdn.simpleicons.org/redis",
+    "category": "Database",
+    "description": "An in-memory data store commonly used for caching, sessions, queues, and fast data access.",
+    "tag": "Cache",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "popularity": "High"
+  },
+  {
+    "id": 8,
+    "name": "JavaScript",
+    "logo": "https://cdn.simpleicons.org/javascript",
+    "category": "Language",
+    "description": "A versatile programming language used to create interactive and dynamic web applications.",
+    "tag": "Ubiquitous",
+    "rating": 4.9,
+    "level": "Beginner-Friendly",
+    "popularity": "Very High"
+  },
+  {
+    "id": 9,
+    "name": "TypeScript",
+    "logo": "https://cdn.simpleicons.org/typescript",
+    "category": "Language",
+    "description": "A strongly typed programming language that extends JavaScript for safer and scalable applications.",
+    "tag": "Essential",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "popularity": "Very High"
+  },
+  {
+    "id": 10,
+    "name": "Java",
+    "logo": "https://cdn.simpleicons.org/java",
+    "category": "Language",
+    "description": "A powerful object-oriented programming language widely used for enterprise and large-scale applications.",
+    "tag": "Robust",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "popularity": "High"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+    "logo": "https://cdn.simpleicons.org/tailwindcss",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for quickly building modern and responsive user interfaces.",
+    "tag": "Modern",
+    "rating": 4.9,
+    "level": "Beginner-Friendly",
+    "popularity": "Very High"
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+    "logo": "https://cdn.simpleicons.org/docker",
+    "category": "DevOps",
+    "description": "A platform for building, packaging, and running applications in lightweight containers.",
+    "tag": "Containers",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "popularity": "Very High"
+  }
+]
